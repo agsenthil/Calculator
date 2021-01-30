@@ -31,11 +31,15 @@ public class Calculator {
                     return;
             }
 
-            System.out.println("The answer is " + result);
+            printOutput(result);
 
         } catch (Exception e) {
             System.out.println("Number formatting exception " + e.getMessage());
         }
+    }
+
+    private static void printOutput(double result) {
+        System.out.println("The answer is " + result);
     }
 
     private static String getInput(String prompt) {
