@@ -1,2 +1,5 @@
 # Project exclude paths
 /.gradle/
+build/classes/java/main/com/learning/idea/Calculator.class
+*.class
+*.txt
