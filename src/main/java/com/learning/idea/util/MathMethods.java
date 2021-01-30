@@ -1,5 +1,8 @@
 package com.learning.idea.util;
 
+/**
+ * Utility code created when I played with IdeaJ
+ */
 public class MathMethods {
     public static double addValues(String s1, String s2) {
         double d1 = Double.parseDouble(s1);
